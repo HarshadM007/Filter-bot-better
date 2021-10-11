@@ -33,7 +33,26 @@ PM_START_TEXT = """
 
 """
 
-HELP_STRINGS = """
+buttons = [
+
+    [
+
+        InlineKeyboardButton(
+
+            text="⭐️ ɢʀᴏᴜᴘ ⭐️", url="https://t.me/CV_Movies"),
+
+    ],
+
+    [
+
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
+
+        InlineKeyboardButton(
+
+            text="Channeil", url=f"https://t.me/MinnalMuraliDownload2021"
+
+           
+            HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
